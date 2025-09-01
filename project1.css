@@ -1,0 +1,50 @@
+body{
+    text-align:center ;
+    margin: 0px;
+    padding: 0px;
+    background-color:#FFCC00;
+   
+}
+
+h1{
+color: #640D5F;
+}
+
+#incompletetasks ,#completedtasks {
+    background-color: #B12C00;
+    border-radius:10px  ;
+    padding: 20px;
+   margin-bottom: 20px;
+   width: 50%;
+}
+main{
+    display: flex;
+    gap: 21px;
+    justify-content: center;
+    width: 80%;
+}
+
+button{
+    background-color: #EB5B00;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-weight:bold ;
+    cursor: pointer;
+    transition:0.2s ;
+}
+
+button:active{
+   background-color:rgb(7, 193, 222);
+   scale: 0.9;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
